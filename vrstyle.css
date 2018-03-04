@@ -53,11 +53,13 @@ buttonTop:hover{
 }
 
 
-body {
+secbody {
+  width: 1920px;
+  max-width: 1920px;
   display:inline-block;
   font-family: 'Inconsolata';
   font-size: 28px;
-  background-color: #334740 ;
+  background: linear-gradient(#334740,#547569);/*#334740 ;*/
   color: #f7f7f7;
   text-indent: 0px;
 }
@@ -66,6 +68,10 @@ body {
 h1,h2{
   font-family: 'avenirnext';
   padding-left: 15%;
+}
+
+h1 {
+  letter-spacing: 2px;
 }
 h2 {
   padding-left: 16%;
