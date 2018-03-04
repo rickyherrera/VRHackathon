@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,900');
+
+@font-face {
+    font-family: 'avenirnext';
+    src: url('Avenir Next.ttc');
+}
+@font-face {
+    font-family: 'avenirreg';
+    src: url('Avenir.ttc');
+}
+
+.headerBar {
+    background-color: #ffaf3f;
+    font-family: 'avenirnext', sans-serif;
+
+    width: 1820px;
+    height: 160px;
+    text-align: right;
+
+    letter-spacing: 3px;
+
+    padding-right: 100px; /*1820+100 = 1920*/
+    padding-top: 100px;   /*160+100 = 260*/
+
+}
+
+.outrageous{
+  width: 1820px;
+  height: 260px;
+
+  padding-top: 100px;
+
+  text-align: center;
+  font-family: 'avenirnext';
+  font-size: 128px;
+  text-align: center;
+}
+
+buttonTop {
+    padding: 30px;
+    font-family: 'avenirreg';
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 100;
+    text-align: center;
+}
+buttonTop:hover{
+    transition: 0.35s;
+    color: #000000;
+}
+
+
+body {
+  font-family: 'Inconsolata';
+  font-size: 28px;
+}
