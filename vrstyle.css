@@ -16,7 +16,7 @@
     vertical-align: middle;
     line-height: 110px;
     width:95%;
-    max-width: 1600px;
+    
 
     height: 110px;
     text-align: right;
@@ -24,6 +24,7 @@
 
     letter-spacing: 1px;
     padding-right: 5%;
+    max-width: 1600px;
 
 
 }
