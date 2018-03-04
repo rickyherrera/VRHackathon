@@ -1,2 +1,2 @@
 # VRHackathon
-UC Berkeley VR Hachathon
+UC Berkeley VR Hackathon
