@@ -14,44 +14,63 @@
     background-color: #ffaf3f;
     font-family: 'avenirnext', sans-serif;
 
-    width: 1820px;
+    max-width: 1920px;
     height: 160px;
     text-align: right;
 
     letter-spacing: 3px;
 
-    padding-right: 100px; /*1820+100 = 1920*/
+    padding-right: 12%; /*1820+100 = 1920*/
     padding-top: 100px;   /*160+100 = 260*/
 
 }
 
 .outrageous{
-  width: 1820px;
+  width: 1920px;
   height: 260px;
-
+  background-color: #f7f7f7;
   padding-top: 100px;
 
   text-align: center;
   font-family: 'avenirnext';
   font-size: 128px;
   text-align: center;
+  color: #0b0a0c;
 }
 
 buttonTop {
-    padding: 30px;
+    padding: 20px;
     font-family: 'avenirreg';
-    color: #ffffff;
-    font-size: 36px;
+    color: #f7f7f7;
+    font-size: 28px;
     font-weight: 100;
     text-align: center;
 }
 buttonTop:hover{
     transition: 0.35s;
-    color: #000000;
+    color: #0B0A0C;
+
 }
 
 
 body {
+  display:inline-block;
   font-family: 'Inconsolata';
   font-size: 28px;
+  background-color: #334740 ;
+  color: #f7f7f7;
+  text-indent: 0px;
+}
+
+
+h1,h2{
+  font-family: 'avenirnext';
+  padding-left: 15%;
+}
+h2 {
+  padding-left: 16%;
+}
+p {
+  padding-left: 17%;
+  width: 700px;
 }
