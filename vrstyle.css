@@ -11,33 +11,41 @@
 }
 
 .headerBar {
-    background-color: #ffaf3f;
+    /* background-color: #ffaf3f; */
+    /*background-color: #FFC34C;*/
+    background-color: #333333;
     font-family: 'avenirnext', sans-serif;
     vertical-align: middle;
-    line-height: 110px;
-    width:95%;
-    
+    line-height: 128px;
+    width:90%;
 
-    height: 110px;
+
+    height: 128px;
     text-align: right;
 
 
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     padding-right: 5%;
     max-width: 1600px;
 
 
 }
 
+.headerBar.smaller {
+  line-height: 64px;
+  height: 64px;
+}
+
 .outrageous{
   width: 100%;
   max-width: 1600px;
 
-  height: 300px;
+  height: 500px;
   /*vertical-align: middle;
   line-height: 400px;*/
-  padding-top: 100px;
+  padding-top: 200px;
   background-color: #f7f7f7;
+  color: #333333;
   /*background: linear-gradient(to top, #f7f7f7 , #ffffff);*/
 
 
@@ -45,23 +53,29 @@
   font-family: 'avenirnext';
   font-size: 70px;
   text-align: center;
-  color: #222222;
+
+  /*background-image: url(https://cdn.dribbble.com/users/41854/screenshots/1818857/transmission_d.gif);*/
+
+  background-position: center center;
+  background-repeat:   no-repeat;
+
 }
 
 buttonTop {
     position:relative;
 
-    padding: 20px;
-    font-family: 'avenirreg';
+    padding: 1.5%;
+    font-family: 'Rubik','avenirreg';
     color: #f7f7f7;
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 500;
     text-align: center;
 }
 
 buttonTop:hover{
     transition: 0.35s;
-    color: #0B0A0C;
+    color: #FF6660;
+    cursor: pointer;
 
 }
 
@@ -71,8 +85,9 @@ secbody {
   max-width: 1600px;
   display:inline-block;
   font-family: 'Inconsolata';
-  font-size: 22px;
-  background: linear-gradient(#334740,#547569);/*#334740 ;*/
+  font-size: 25px;
+  background: #5E9E86;
+  /*background: linear-gradient(#334740,#547569);#334740 ;*/
   color: #f7f7f7;
   text-indent: 0px;
 }
@@ -91,5 +106,5 @@ h2 {
 }
 p {
   padding-left: 15%;
-  width: 500px;
+  width: 700px;
 }
