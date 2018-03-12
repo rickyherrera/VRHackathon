@@ -61,18 +61,19 @@
 
 }
 
-buttonTop {
+a {
     position:relative;
-
+    text-decoration: none;
     padding: 1.5%;
     font-family: 'Rubik','avenirreg';
     color: #f7f7f7;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
+    transition: 0.45s;
 }
 
-buttonTop:hover{
+.buttonTop:hover{
     transition: 0.35s;
     color: #FF6660;
     cursor: pointer;
@@ -85,30 +86,41 @@ secbody {
   max-width: 1600px;
   display:inline-block;
   font-family: 'avenirreg';
-  font-size: 20px;
-  background: #5E9E86;
+  font-size: 19px;
+  /* background: #5E9E86;*/
+  background: #f7f7f7;
   /*background: linear-gradient(#334740,#547569);#334740 ;*/
-  color: #f7f7f7;
+  /* color: #f7f7f7; */
+  color: #333333;
   text-indent: 0px;
 }
 
-
-h1,h2,h3,h4{
-  font-family: 'Avenir Next', 'avenirnext';
-  padding-left: 14%;
+secbodyRes {
+  width: 100%;
+  max-width: 1600px;
+  display:inline-block;
+  font-family: 'avenirreg';
+  font-size: 18px;
+  background: #f7f7f7;
+  color: #333333;
+  text-indent: 0px;
 }
 
 h1 {
+  font-family: 'Avenir Next';
+  padding-left: 14%;
   letter-spacing: 1.5px;
 }
-h2,h3 {
+h2,h3,h4{
+  font-family: 'Avenir', 'avenirnext';
   padding-left: 14.5%;
-  letter-spacing: 1px;
 }
+
 h4 {
   padding-left: 15%;
 }
 p {
   padding-left: 15%;
-  width: 575px;
+  width: 800px;
 }
+
