@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700,800,900');
 
 @font-face {
     font-family: 'avenirnext';
@@ -50,7 +51,8 @@
 
 
   text-align: center;
-  font-family: 'avenirnext';
+  font-family: 'Poppins';
+  font-weight: 700;
   font-size: 70px;
   text-align: center;
 
@@ -68,14 +70,15 @@ a {
     font-family: 'Rubik','avenirreg';
     color: #f7f7f7;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
     transition: 0.45s;
 }
 
 .buttonTop:hover{
     transition: 0.35s;
-    color: #FF6660;
+    color: #1aa4c8;
+    /*color: #FF6660;*/
     cursor: pointer;
 
 }
@@ -85,7 +88,7 @@ secbody {
   width: 100%;
   max-width: 1600px;
   display:inline-block;
-  font-family: 'avenirreg';
+  font-family: 'Poppins';
   font-size: 19px;
   /* background: #5E9E86;*/
   background: #f7f7f7;
@@ -99,7 +102,7 @@ secbodyRes {
   width: 100%;
   max-width: 1600px;
   display:inline-block;
-  font-family: 'avenirreg';
+  font-family: 'Poppins';
   font-size: 18px;
   background: #f7f7f7;
   color: #333333;
@@ -107,12 +110,12 @@ secbodyRes {
 }
 
 h1 {
-  font-family: 'Avenir Next';
+  font-family: 'Poppins', 'Avenir Next';
   padding-left: 14%;
   letter-spacing: 1.5px;
 }
 h2,h3,h4{
-  font-family: 'Avenir', 'avenirnext';
+  font-family: 'Poppins','Avenir', 'avenirnext';
   padding-left: 14.5%;
 }
 
